@@ -1,0 +1,22 @@
+{
+  "name": "client-profile-update-name",
+  "version": "1.0.0",
+  "description": "NodeJS Service for Updating Client Name",
+  "main": "src/handler.js",
+  "dependencies": {
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^6.8.0"
+  },
+  "scripts": {
+    "deploy": "sls deploy",
+    "start": "node src/handler.js"
+  },
+  "keywords": [],
+  "author": "Sarthak Joshi",
+  "license": "ISC"
+}
